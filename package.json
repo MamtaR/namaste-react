@@ -1,0 +1,35 @@
+{
+  "name": "react-learning",
+  "version": "1.0.0",
+  "description": "This is learning react project",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MamtaR/namaste-react.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Mamta Ramrakhyani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MamtaR/namaste-react/issues"
+  },
+  "homepage": "https://github.com/MamtaR/namaste-react#readme",
+  "devDependencies": {
+    "parcel": "^2.8.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "lightningcss": "^1.17.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browserslist": [
+    "last 8 versions"
+  ]
+}
