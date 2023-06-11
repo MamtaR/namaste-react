@@ -1,4 +1,59 @@
-#heading{
-    color: green;
-    border: 2px solid #000;
+.headerComponent{
+    display: flex;
+}
+
+.logo{
+    width: 200px;
+    height: 150px;
+}
+
+.nav-items{
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    list-style: none;
+    margin-left: 700px;
+    letter-spacing: 2;
+}
+.nav-items > li{
+    padding: 5px 20px;
+}
+
+.footerComponent {
+    text-align:center;
+    padding: 5px;
+    background-color: #abbaba;
+    color: #000;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.bodyComponent {
+    position: absolute; 
+    display: flex;
+}
+.restaurant-card{
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #000;
+    margin: 0 20px;
+    background-color: orange;
+}
+.resLogo{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    margin: 0 auto;
+}
+.card-content{
+    text-align: center;
+}
+.restaurant-card h3, h4, h5, h6{
+    margin: 10px 0;
+}
+.res-container{
+    display: flex;
 }
